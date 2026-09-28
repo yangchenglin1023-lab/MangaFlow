@@ -1,0 +1,22 @@
+# 构建产物
+build/
+dist/
+*.apk
+*.idsig
+
+# 密钥与凭据（绝不入库）
+github.token
+*.token
+tools/rpgmv.keystore
+
+# 工具链（体积大且可按 README 重新下载；签名密钥绝不入库）
+tools/jdk-*/
+tools/sdk/
+tools/cmdline-tools/
+tools/downloads/
+tools/rpgmv.keystore
+tools/*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
